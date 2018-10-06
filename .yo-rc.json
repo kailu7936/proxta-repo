@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.avs.proxta",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.2.1",
+    "applicationType": "microservice",
+    "baseName": "proxta",
+    "packageName": "com.avs.proxta",
+    "packageFolder": "com/avs/proxta",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "proxtauaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "f3271ed63734e646bbfbf6709541614833718e5b",
+    "enableTranslation": true,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
